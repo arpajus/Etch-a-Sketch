@@ -1,0 +1,10 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    box-sizing: border-box;
+    width: calc(6.25%/16);
+    height: calc(6.25vh/16);
+}
