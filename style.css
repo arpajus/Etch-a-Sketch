@@ -1,10 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    gap: 10px;
+}
 #container{
     display: flex;
     flex-wrap: wrap;
+    max-width: 400px; 
+
 }
 
 .cell{
     box-sizing: border-box;
-    width: calc(6.25%/16);
-    height: calc(6.25vh/16);
+    border: 1px solid #0ce66a;
 }
